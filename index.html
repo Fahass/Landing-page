@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <title>Landing-Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,20 +15,21 @@
             <div class="logo">
                 <h3>Fahass</h3>
             </div>
-            <label for="check">
+            <label for="check" id="chck">
                 <div class="bar-lines">
                     <span></span>
                 </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#one">Home</a></li>
+                        <li><a href="#two">Services</a></li>
+                        <li><a href="#three">About Us</a></li>
+                        <li><a href="#four">Team</a></li>
+                        <li><a href="#five">Contact</a></li>
+                    </ul>
+                </div>
             </label>
-            <div class="links">
-                <ul>
-                    <li><a href="#one">Home</a></li>
-                    <li><a href="#two">Services</a></li>
-                    <li><a href="#three">About Us</a></li>
-                    <li><a href="#four">Team</a></li>
-                    <li><a href="#five">Contact</a></li>
-                </ul>
-            </div>
+            
         </nav>
             <!--------------section One------------------------------->
 
@@ -129,7 +131,7 @@
                                 <p class="role">creative leader</p>
                                 <h3>John Doe</h3>
                                 <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic commodi voluptas incidunt ipsum reprehenderit vel excepturi ullam aut. Lorem, ipsum dolor.</p>
-                                <b><img src="./images/blue-facebook.png" class="icons"></b><b><img src="./images/blue-twitter02.png" class="icons"></b><b><img src="./images/blue-instagram.png" class="icons"></b>
+                                <a href="#" target="_blank"><img src="./images/blue-facebook.png" class="icons"></a><a href="#" target="_blank"><img src="./images/blue-twitter02.png" class="icons"></a><a href="#" target="_blank"><img src="./images/blue-instagram.png" class="icons"></a>
                             </div>
                         </div>
                         <div class="team-bx">
@@ -138,7 +140,7 @@
                                 <p class="role">sales manager</p>
                                 <h3>Jane Doe</h3>
                                 <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic commodi voluptas incidunt ipsum reprehenderit vel excepturi ullam aut Lorem, ipsum dolor.</p>
-                                <b><img src="./images/blue-facebook.png" class="icons"></b><b><img src="./images/blue-twitter02.png" class="icons"></b><b><img src="./images/blue-instagram.png" class="icons"></b>
+                                <a href="#" target="_blank"><img src="./images/blue-facebook.png" class="icons"></a><a href="#" target="_blank"><img src="./images/blue-twitter02.png" class="icons"></a><a href="#" target="_blank"><img src="./images/blue-instagram.png" class="icons"></a>
                             </div>
                         </div>
                         <div class="team-bx">
@@ -147,7 +149,7 @@
                                 <p class="role">manager</p>
                                 <h3>Bob Brown</h3>
                                 <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic commodi voluptas incidunt ipsum reprehenderit vel excepturi ullam aut. Lorem, ipsum dolor.</p>
-                                <b><img src="./images/blue-facebook.png" class="icons"></b><b><img src="./images/blue-twitter02.png" class="icons"></b><b><img src="./images/blue-instagram.png" class="icons"></b>
+                                <a href="#" target="_blank"><img src="./images/blue-facebook.png" class="icons"></a><a href="#" target="_blank"><img src="./images/blue-twitter02.png" class="icons"></a><a href="#" target="_blank"><img src="./images/blue-instagram.png" class="icons"></a>
                             </div>
                         </div>
                         <div class="team-bx">
@@ -156,7 +158,7 @@
                                 <p class="role">chief leader</p>
                                 <h3>Mary Smith</h3>
                                 <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic commodi voluptas incidunt ipsum reprehenderit vel excepturi ullam aut. Lorem, ipsum dolor.</p>
-                                <b><img src="./images/blue-facebook.png" class="icons"></b><b><img src="./images/blue-twitter02.png" class="icons"></b><b><img src="./images/blue-instagram.png" class="icons"></b>
+                                <a href="#" target="_blank"><img src="./images/blue-facebook.png" class="icons"></a><a href="#" target="_blank"><img src="./images/blue-twitter02.png" class="icons"></a><a href="#" target="_blank"><img src="./images/blue-instagram.png" class="icons"></a>
                             </div>
                         </div>
                     </div>
@@ -191,9 +193,10 @@
                                         <b>Date</b> <br>
                                         <input type="date" name="address" id="" required>
                                     </div>
+                                    <b>Message</b> <br>
+                                    <textarea type="text" name="address" id="" placeholder="Enter your message" required></textarea>
                                 </div>
-                                <b>Message</b> <br>
-                                <textarea type="text" name="address" id="" placeholder="Enter your message" required></textarea> <br>
+ <br>
                                 <button type="submit">submit</button>
                             </form>
                         </div>
